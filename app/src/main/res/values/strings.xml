@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImageSileShow</string>
+    <string name="but_text_start"> 이미지쇼 시작</string>
+    <string name="but_text_stop">이미지쇼 정지</string>
+</resources>
