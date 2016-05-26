@@ -23,25 +23,36 @@
         android:id="@+id/but_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/but_text_stop"/>
+        android:text="@string/but_text_stop"/> </LinearLayout>
         <ViewFlipper
             android:id="@+id/view_flip"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></ViewFlipper>
-        <ImageView
-            android:src="@drawable/bb"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-        <ImageView
-            android:src="@drawable/jr"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
+            android:layout_height="match_parent">
         <ImageView
             android:src="@drawable/yg"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/jb2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/mkjr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/mk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/all"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:src="@drawable/ygae3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
+        </ViewFlipper>
 
-    </LinearLayout>
 </LinearLayout>
