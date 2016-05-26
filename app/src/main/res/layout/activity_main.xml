@@ -14,6 +14,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+        <EditText
+            android:id="@+id/text_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_second"/>
     <Button
          android:id="@+id/but_start"
          android:layout_width="wrap_content"
@@ -23,7 +32,9 @@
         android:id="@+id/but_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/but_text_stop"/> </LinearLayout>
+        android:text="@string/but_text_stop"/>
+
+    </LinearLayout>
         <ViewFlipper
             android:id="@+id/view_flip"
             android:layout_width="match_parent"
