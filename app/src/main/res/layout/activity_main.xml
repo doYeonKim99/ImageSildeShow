@@ -29,8 +29,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"></ViewFlipper>
         <ImageView
-            android:src="@drawable/루피"
+            android:src="@drawable/bb"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+        <ImageView
+            android:src="@drawable/jr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:src="@drawable/yg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
     </LinearLayout>
 </LinearLayout>
